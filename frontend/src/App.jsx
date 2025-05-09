@@ -8,7 +8,7 @@ const App = () => {
   // Function to fetch portfolio data
   const fetchPortfolio = () => {
     axios
-      .get("http://localhost:3000/api/portfolio")
+      .get("https://portfolio-dashboard-678j.onrender.com/api/portfolio")
       .then((res) => {
         setPortfolio(res.data);
       })
